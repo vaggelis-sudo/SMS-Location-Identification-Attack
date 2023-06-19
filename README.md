@@ -14,10 +14,6 @@ The code and data associated with this paper will be made publicly available in 
 
 Please stay tuned for updates!
 
-## How to Cite
-
-If you use this code or data in your research or work, please cite the following paper:
-
 ## Citation
 
 If you use this code or data in your research or work, please cite the following paper:
