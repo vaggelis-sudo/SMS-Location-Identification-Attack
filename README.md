@@ -18,11 +18,12 @@ Please stay tuned for updates!
 
 If you use this code or data in your research or work, please cite the following paper:
 
-@inproceedings{USENIX'23,<br>
-  title = {Freaky Leaky SMS: Extracting User Locations by Analyzing SMS Timings},<br>
-  author = {Evangelos Bitsikas and Theodor Schnitzler and Christina Pöpper and Aanjhan Ranganathan},<br>
-  booktitle = {32nd {USENIX} Security Symposium, {USENIX} Security 2023, Anaheim, CA, USA, August 9-11, 2023},<br>
-  year = {2023},<br>
-  url = {https://www.usenix.org/conference/usenix'23}<br>
+@misc{bitsikas2023freaky,<br>
+      title={Freaky Leaky SMS: Extracting User Locations by Analyzing SMS Timings},<br>
+      author={Evangelos Bitsikas and Theodor Schnitzler and Christina Pöpper and Aanjhan Ranganathan},<br>
+      year={2023},<br>
+      eprint={2306.07695},<br>
+      archivePrefix={arXiv},<br>
+      primaryClass={cs.CR}<br>
 }<br>
 
