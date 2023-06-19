@@ -18,12 +18,11 @@ Please stay tuned for updates!
 
 If you use this code or data in your research or work, please cite the following paper:
 
-@misc{bitsikas2023freaky,<br>
-      title={Freaky Leaky SMS: Extracting User Locations by Analyzing SMS Timings},<br>
-      author={Evangelos Bitsikas and Theodor Schnitzler and Christina Pöpper and Aanjhan Ranganathan},<br>
-      year={2023},<br>
-      eprint={2306.07695},<br>
-      archivePrefix={arXiv},<br>
-      primaryClass={cs.CR}<br>
-}<br>
+## Citation
+
+If you use this code or data in your research or work, please cite the following paper:
+
+> Freaky Leaky SMS: Extracting User Locations by Analyzing SMS Timings
+
+The citation details can be found in the [CITATION.cff](./CITATION.cff) file.
 
