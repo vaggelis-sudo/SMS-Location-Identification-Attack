@@ -22,7 +22,17 @@ If you use this code or data in your research or work, please cite the following
 
 If you use this code or data in your research or work, please cite the following paper:
 
-> Freaky Leaky SMS: Extracting User Locations by Analyzing SMS Timings
+<blockquote style="background-color: #f7f7f7; padding: 10px; border-left: 6px solid #1f618d;">
+<em>If you use this code or data in your research or work, please cite the following paper:</em>
 
-The citation details can be found in the [CITATION.cff](./CITATION.cff) file.
+<pre>
+@inproceedings{USENIX'23,
+  <span style="color: #c0392b;">title = {Freaky Leaky SMS: Extracting User Locations by Analyzing SMS Timings},</span>
+  <span style="color: #2980b9;">author = {Your Name and Co-Authors},</span>
+  <span style="color: #27ae60;">booktitle = {Proceedings of the USENIX Annual Technical Conference},</span>
+  <span style="color: #8e44ad;">year = {2023},</span>
+  <span style="color: #e67e22;">url = {https://www.usenix.org/conference/usenix'23}</span>
+}
+</pre>
+</blockquote>
 
