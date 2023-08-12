@@ -10,7 +10,7 @@ it is difficult to prevent Delivery Reports from being returned to the originato
 
 ## Code and Data Availability
 
-The code and data associated with this paper will be made publicly available in this repository before the conference takes place. We are currently working on organizing and documenting the codebase to ensure its usability and reproducibility. We aim to provide clear instructions on how to run the code and utilize the provided data for further research and experimentation.
+A POC code and data associated with this paper will be made publicly available in this repository once the licensing is determined. We are also working on organizing and documenting the codebase to ensure its usability and reproducibility. We aim to provide clear instructions on how to run the code and utilize the provided data for further research and experimentation.
 
 Please stay tuned for updates!
 
