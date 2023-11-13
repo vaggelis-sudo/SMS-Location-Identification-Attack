@@ -1,8 +1,13 @@
 Northeastern University
+
 Software End User License Agreement for Non-Commercial Use
+
 Northeastern University (“University”), New York University In Abu Dhabi Corporation and TU Dortmund University, have developed certain software and documentation titled “Cellular User Localization System: SMS Side-Channel Timing Analysis Method and Apparatus” (Software), disclosure SW-24013 (the “Software”) and is the owner of associated rights, title and interest in the software and documentation that it desires to make available without charge to anyone for academic and/or not-for- profit internal research use only. Distribution or any other use of the Software requires a license for commercial purposes, if available, from the University.
+
 This Software End User License Agreement for Non-Commercial Use (the “Agreement”) sets forth the terms of use governing your (the “End User”) use of the Software. The Software is being released, on a GitHub repository, free of charge by University to the End User solely for academic and/or not-for-profit internal research purposes (the “Purpose”). The Purpose excludes any use of the Software by End User in connection with human subject research, including for diagnostic and clinical research purposes.
-End User must agree to the terms below or End User shall have no right to access or use the Software whatsoever. 
+
+End User must agree to the terms below or End User shall have no right to access or use the Software whatsoever.
+
 UNIVERSITY agrees to grant, hereunder, a non-exclusive, non-transferable, non-sublicensable license to End User for the use of the Software solely for the Purpose on the following terms and conditions:
 
 1. NO COMMERCIAL USE. End User shall use the Software for the Purpose only. Any use of the Software for commercial purposes by End User is expressly prohibited. Commercial purposes includes, but is not limited to, use of the Software in fee-for-service arrangements, to create or incorporate into commercial products or use for commercial services, or to provide fee-based research services to third parties. End User must execute a separate written license agreement with UNIVERSITY for any rights related to commercial use or any use outside of the Purpose.
@@ -28,5 +33,7 @@ Notwithstanding the foregoing, University is under no obligation to grant any co
 12. GOVERNING LAW. This Agreement and all disputes arising hereunder shall be construed and governed by the laws of the Commonwealth of Massachusetts regardless of otherwise applicable choice of law standards.
 13. NON-USE OF NAME. Nothing in this Agreement shall be construed as granting End Users or their institutions any rights or licenses to use any trademarks, service marks or logos displayed on the Software. End User shall not otherwise use or allow the use of the name of Northeastern University or “University” or any variation, adaptation, or abbreviation thereof, or of any of its trustees, officers, faculty, students, employees, or agents, or any trademark owned by University, in any other public announcement or disclosure without prior written consent. University consent can be requested by email (to CRIAgreements@northeastern.edu), which University may withhold in its sole discretion. If End User seeks to use the name of an individual trustee, officer, faculty, student, employee or agent, End User must receive the written consent of such individual.
 14. MISCELLANEOUS. This Agreement represents the entire agreement between the parties with respect to the subject matter hereof and supersedes any prior negotiations or discussions, whether written or oral. End User shall use the Software in compliance with all applicable laws and regulations. These terms may be modified or amended only in writing signed by authorized representatives of University and End User. This Agreement may not be assigned. The failure of University to enforce at any time any of the provisions of the Agreement will in no way be construed to be a present or future waiver of such provisions, nor in any way affect the ability to enforce each and every such provision thereafter.
+
 END OF LICENSE
+
 ***
