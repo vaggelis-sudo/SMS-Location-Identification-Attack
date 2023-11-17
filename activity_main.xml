@@ -1,0 +1,40 @@
+<!--"Copyright Notice and Disclaimer. 
+© NORHEASTERN UNIVERSITY 2023 SW-24013 used with permission. All rights reserved."-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SMSActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/editPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editMsgText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Let's catch some SMS delivery reports!" />
+
+        <Button
+            android:id="@+id/btnSendMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send SMS" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
