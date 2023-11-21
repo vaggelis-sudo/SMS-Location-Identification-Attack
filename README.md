@@ -60,8 +60,7 @@ The `runner.py` script is responsible for invoking the application on the phone 
 
 ## SMS Application
 
-The application is responsible for sending the actual SMS message in a correct and error-free process, and for collecting the measurements. The measurements are written in a 
-file in memory which can be retrieved for processing. The `AndroidManifest.xml` shows the configurations and permissions needed for the application, and the `activity_main.xml` presents the design (bar for the "Phone Number" and button for "Send"). This design was selected in order to facilitate manual transmissions too, but it is optional.  
+The application is responsible for sending the actual SMS message in a correct and error-free process, and for collecting the measurements. The measurements are written in a file in memory which can be retrieved for processing. The `AndroidManifest.xml` shows the configurations and permissions needed for the application, and the `activity_main.xml` presents the design (bar for the "Phone Number" and button for "Send"). This design was selected in order to facilitate manual transmissions too, but it is optional.  
 
 For security reasons though, the application code (of the `SMSActivity.java`) cannot be public. However...instructions:
 
@@ -92,7 +91,7 @@ Please refer to the [paper](https://arxiv.org/pdf/2306.07695.pdf) for more infor
 
 1. We may provide additional functionalities in the future (in allignment with the patenting guidelines), including automated selection and preprocessing of measurements from extensive datasets. These functionalities aim to streamline the preparation phase of the data before entering the training pipeline. 
 
-2. While the repository may not be fully active, for any questions, clarifications, or suggestions, please do not hesitate to reach out at [vaggelisbtks@gmail.com](mailto:vaggelisbtks@gmail.com).
+2. While the repository may not be fully active, for any questions, please do not hesitate to reach out at [vaggelisbtks@gmail.com](mailto:vaggelisbtks@gmail.com).
 
 ## Citation
 
