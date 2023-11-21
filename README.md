@@ -50,8 +50,7 @@ For example, `*/30 * * * * /path/to/initial_script.sh` executes the script every
 `chmod +x /path/to/initial_script.sh`. In the `initial_script.sh` add the ADB code of your sending device, the receiver's number, and the number of iterations. These
 will be passed to the `runner.py` script every time it is executed. Modify it as you prefer.
 
-The `runner.py` script is responsible for invoking the application on the phone and for executing the SMS transmissions based on the input. First, it starts the corresponding
-activity (make modifications based on your application). Then, it controls the interface to pass the phone number to the application and presses the button to send an SMS. This requires to identify the correct/matching coordinates on different devices. Therefore, enable `pointer location` on Android's Developer Options to identify the XY values required for the application. In addition, make sure that the `ADB_PATH = '/path/to/adb'` is correct, and that your computer has identified the device in the `adb devices` output. Overall, the script automates the following process (one iteration):
+The `runner.py` script is responsible for invoking the application on the phone and for executing the SMS transmissions based on the input. First, it starts the corresponding activity (make modifications based on your application). Then, it controls the interface to pass the phone number to the application and presses the button to send an SMS. This requires to identify the correct/matching coordinates on different devices. Therefore, enable `pointer location` on Android's Developer Options to identify the XY values required for the application. In addition, make sure that the `ADB_PATH = '/path/to/adb'` is correct, and that your computer has identified the device in the `adb devices` output. Overall, the script automates the following process (one iteration):
 
 1. Wakes up the device.
 2. Stops the messaging app if running.
@@ -75,7 +74,7 @@ For security reasons though, the application code (of the `SMSActivity.java`) ca
 
 Nonetheless, the application is not enough to indicate a successful procedure. You must separately and closely monitor the baseband logs (e.g, `adb logcat -b radio > baseband_logs.txt`) to verify the successful transmission of SMSs and reception of Delivery Reports. Ensure that there is synchronization between the application and logs for the measurement collection, and focus on the AT commands. Devices and modems may have different log structures and formats. 
 
-Additionally, it is important to collect information about your network. This could be achieved by amalgamating data from three key sources: your application (they can be used for network checks as well), the baseband logs, and the device's dial codes (e.g., *3001#12345#* for iphone, and *#*#4636#*#* for Android).
+Additionally, it is important to collect information about your network. This could be achieved by amalgamating data from three key sources: your application (they can be used for network checks as well), the baseband logs, and the device's dial codes (e.g., `*3001#12345#*` for iphone, and `*#*#4636#*#*` for Android).
 
 ## ML Model & Data
 
