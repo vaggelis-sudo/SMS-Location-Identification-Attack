@@ -40,8 +40,8 @@ pip install pandas scikit-learn numpy
 3. Return to `Settings`, find `Developer options`, and enable `USB debugging`.
 
 ### Install Java Development Kit (JDK) and Android Studio
-Java SDK is essential for Android app development and compilation. Check the [official website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-Download and install Android Studio, the IDE for Android development, from the [official website](https://developer.android.com/studio). Follow the setup wizard in Android Studio to install necessary SDK tools and components.
+Java SDK is essential for Android app development and compilation. Check Oracle's [website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+Next, download and install Android Studio, the IDE for Android development, from the [official website](https://developer.android.com/studio). Follow the setup wizard in Android Studio to install necessary SDK tools and components.
 
 ## SMS Transmission Control
 
